@@ -1,0 +1,10 @@
+upoint:
+  runtime:
+    hro:
+      props:
+        WEB_ANALYTICS_UA_CROSS_PROPERTY_ID:
+          name: WEB_ANALYTICS_UA_CROSS_PROPERTY_ID
+          value: UA-197938902-3
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+

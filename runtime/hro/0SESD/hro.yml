@@ -1,0 +1,24 @@
+upoint:
+  runtime:
+    hro:
+      props:
+        CM_TARGET_END_POINT:
+          name: CM_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/ProcessEngineWeb/services/alight/CMServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        CREDENTIAL_TARGET_END_POINT:
+          name: CREDENTIAL_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/ProcessEngineWeb/services/alight/CredentialMgmtServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HASBRO_BROKER_ECS_USERID:
+          name: HASBRO_BROKER_ECS_USERID
+          value: SAuth
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HASBRO_BROKER_USERID:
+          name: HASBRO_BROKER_USERID
+          value: SAuth
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z

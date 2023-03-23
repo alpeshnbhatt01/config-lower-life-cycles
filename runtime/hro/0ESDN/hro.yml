@@ -1,0 +1,9 @@
+upoint:
+  runtime:
+    hro:
+      props:
+        VANITY_URL :
+          name: VANITY_URL 
+          value: https://digital.qa.alight.com/qa/eservicedirectncc
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z

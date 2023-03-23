@@ -1,0 +1,14 @@
+upoint:
+  runtime:
+    hro:
+      props:
+        WEB_ANALYTICS_UA_CLIENT_TRACKING:
+          name: WEB_ANALYTICS_UA_CLIENT_TRACKING
+          value: false
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        WEB_ANALYTICS_UA_CROSS_PROPERTY_ID:
+          name: WEB_ANALYTICS_UA_CROSS_PROPERTY_ID
+          value: UA-204522597-2
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z

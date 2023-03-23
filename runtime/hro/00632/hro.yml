@@ -1,0 +1,84 @@
+upoint:
+  runtime:
+    hro:
+      props:
+        EMAIL_OVERRIDE_ADDRESS:
+          name: EMAIL_OVERRIDE_ADDRESS
+          value: syed.majeeth.m@alight.com
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        EXTLINK_KEEPALIVE_INTERVAL:
+          name: EXTLINK_KEEPALIVE_INTERVAL
+          value: 20
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IS_UDP_BPO_ENABLED:
+          name: IS_UDP_BPO_ENABLED
+          value: TRUE
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IS_UDP_ENABLED_V2:
+          name: IS_UDP_ENABLED_V2
+          value: TRUE
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PORTAL_SESSION_TIMEOUT:
+          name: PORTAL_SESSION_TIMEOUT
+          value: 20
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PORTAL_SESSION_TIMEOUT_WARNING:
+          name: PORTAL_SESSION_TIMEOUT_WARNING
+          value: 5
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        UCE_SCHEMA_NAME:
+          name: UCE_SCHEMA_NAME
+          value: ucceClient7005
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        VANITY_URL:
+          name: VANITY_URL
+          value: https://digital.qa.alight.com/qa/accenture_portal/
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        WEB_ANALYTICS_UA_CLIENT_PROPERTY_ID:
+          name: WEB_ANALYTICS_UA_CLIENT_PROPERTY_ID
+          value: UA-45435613-2
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        WEB_ANALYTICS_UA_CROSS_PROPERTY_ID:
+          name: WEB_ANALYTICS_UA_CROSS_PROPERTY_ID
+          value: UA-42536228-7
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        YBR_CLIENT_PEDIGREE:
+          name: YBR_CLIENT_PEDIGREE
+          value: 00632_ybr_ybrfndt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        YBR_STATIC_FILE_SERVER:
+          name: YBR_STATIC_FILE_SERVER
+          value: bitlb01.hewitt.com/ybr/R516
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IS_IVA_ENABLED:
+          name: IS_IVA_ENABLED
+          value: TRUE
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        FRAUD_SKIP_RSA_DEFAULT:
+          name: FRAUD_SKIP_RSA_DEFAULT
+          value: FALSE
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PIT_DB_JNDI_NAME:
+          name: PIT_DB_JNDI_NAME
+          value: jdbc/pitc1
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PIT_DB_SCHEMA:
+          name: PIT_DB_SCHEMA
+          value: U00632
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z

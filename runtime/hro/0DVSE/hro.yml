@@ -1,0 +1,14 @@
+upoint:
+  runtime:
+    hro:
+      props:
+        CREDENTIAL_TARGET_END_POINT:
+          name: CREDENTIAL_TARGET_END_POINT
+          value: https://services.qa.alight.com/AHServiceGatewayQA/services/alight/CredentialMgmtServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        CM_TARGET_END_POINT:
+          name: CM_TARGET_END_POINT
+          value: https://services.qa.alight.com/AHServiceGatewayQA/services/alight/CMServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z

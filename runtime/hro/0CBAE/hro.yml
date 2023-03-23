@@ -1,0 +1,24 @@
+upoint:
+  runtime:
+    hro:
+      props:
+        CM_TARGET_END_POINT:
+          name: CM_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/ProcessEngineWeb/services/alight/CMServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        CREDENTIAL_TARGET_END_POINT:
+          name: CREDENTIAL_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/ProcessEngineWeb/services/alight/CredentialMgmtServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        WEB_ANALYTICS_UA_CLIENT_TRACKING:
+          name: WEB_ANALYTICS_UA_CLIENT_TRACKING
+          value: false
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        WEB_ANALYTICS_UA_CROSS_PROPERTY_ID:
+          name: WEB_ANALYTICS_UA_CROSS_PROPERTY_ID
+          value: UA-42536228-15
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z

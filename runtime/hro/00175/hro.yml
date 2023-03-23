@@ -1,0 +1,29 @@
+upoint:
+  runtime:
+    hro:
+      props:
+        UCE_SCHEMA_NAME:
+          name: UCE_SCHEMA_NAME
+          value: ucceClient7025
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        VANITY_URL:
+          name: VANITY_URL
+          value: https://digital.qa.alight.com/qa/adm/
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        WEB_ANALYTICS_UA_CLIENT_PROPERTY_ID:
+          name: WEB_ANALYTICS_UA_CLIENT_PROPERTY_ID
+          value: UA-45359255-2
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        YBR_CLIENT_PEDIGREE:
+          name: YBR_CLIENT_PEDIGREE
+          value: 00175_ybr_ybrfndt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        YBR_STATIC_FILE_SERVER:
+          name: YBR_STATIC_FILE_SERVER
+          value: bitlb01.hewitt.com/ybr/R516
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z

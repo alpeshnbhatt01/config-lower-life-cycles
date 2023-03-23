@@ -1,0 +1,854 @@
+upoint:
+  runtime:
+    hro:
+      props:
+        CM_TARGET_END_POINT:
+          name: CM_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/CMServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        CYC_TARGET_END_POINT:
+          name: CYC_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/ProcessEngineWeb/services/alight/ConnectYourCare
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        DB_TARGET_END_POINT:
+          name: DB_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/DBServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        DC_TARGET_END_POINT:
+          name: DC_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/DCServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HM_TARGET_END_POINT:
+          name: HM_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/HMServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IS_UDP_BPO_ENABLED:
+          name: IS_UDP_BPO_ENABLED
+          value: false
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IS_NAMESPACE_ENABLED:
+          name: IS_NAMESPACE_ENABLED
+          value: false
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        LOGOUT_PAGE_PATH:
+          name: LOGOUT_PAGE_PATH
+          value: /CsPrtlLogOff
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HASBRO_BROKER_USERID:
+          name: HASBRO_BROKER_USERID
+          value: Portal
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        USE_DEFAULT_LANGUAGE:
+          name: USE_DEFAULT_LANGUAGE
+          value: true
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        UPOINT_UDP_AUTHORIZATION_END_POINT:
+          name: UPOINT_UDP_AUTHORIZATION_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/oauth2/token
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        UPOINT_UDP_AUTH_SESSION_END_POINT:
+          name: UPOINT_UDP_AUTH_SESSION_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/api/startSessionForPerson
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        UPOINT_UDP_AUTHORIZATION_TOKEN:
+          name: UPOINT_UDP_AUTHORIZATION_TOKEN
+          value: ${secret:udp.authorize.token.upoint}
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        UPOINT_UDP_CONNECTION_TIMEOUT:
+          name: UPOINT_UDP_CONNECTION_TIMEOUT
+          value: '60000'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        UPOINT_UDP_READ_TIMEOUT:
+          name: UPOINT_UDP_READ_TIMEOUT
+          value: '60000'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        EXT_NONSSO_LK_LOGGING_URL:
+          name: EXT_NONSSO_LK_LOGGING_URL
+          value: /delegate/logging
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HFIM_FACADE_SERVLET_PATH:
+          name: HFIM_FACADE_SERVLET_PATH
+          value: /delegate/hfim
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        YBR_HFIM_TARGET:
+          name: YBR_HFIM_TARGET
+          value: YBRQA
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        POST_DATA_DELEGATE_SERVLET_PATH:
+          name: POST_DATA_DELEGATE_SERVLET_PATH
+          value: /delegate/postlink
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IS_UDP_ENABLED:
+          name: IS_UDP_ENABLED
+          value: false
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IS_UDP_ENABLED_V2:
+          name: IS_UDP_ENABLED_V2
+          value: true
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        UDP_NORMALIZED_CLIENT_ID:
+          name: UDP_NORMALIZED_CLIENT_ID
+          value: None
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HASBRO_BROKER_ECS_USERID:
+          name: HASBRO_BROKER_ECS_USERID
+          value: Portal
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        ENABLE_HASBRO_REQUEST_COMPRESSION:
+          name: ENABLE_HASBRO_REQUEST_COMPRESSION
+          value: 'false'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        ACCEPT_HASBRO_GZIP_RESPONSE:
+          name: ACCEPT_HASBRO_GZIP_RESPONSE
+          value: 'false'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        POOL_MAX_SIZE:
+          name: POOL_MAX_SIZE
+          value: '200'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        POOL_MAX_ACTIVE_SIZE:
+          name: POOL_MAX_ACTIVE_SIZE
+          value: '150'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IS_UDP_YSA_ENABLED:
+          name: IS_UDP_YSA_ENABLED
+          value: false
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PROXY_SERVER_HOST:
+          name: PROXY_SERVER_HOST
+          value: 
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PROXY_SERVER_PORT:
+          name: PROXY_SERVER_PORT
+          value: 
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PROXY_SERVER_USERID:
+          name: PROXY_SERVER_USERID
+          value: 
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PROXY_SERVER_PASSWORD:
+          name: PROXY_SERVER_PASSWORD
+          value: 
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PRSNMSNG_TARGET_END_POINT:
+          name: PRSNMSNG_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PersonMessaging
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HTTP_SOCKET_TIMEOUT:
+          name: HTTP_SOCKET_TIMEOUT
+          value: '20000'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        NON_PROXY_HOSTS:
+          name: NON_PROXY_HOSTS
+          value: 
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        EMPLOYEE_MGMT_TARGET_END_POINT:
+          name: EMPLOYEE_MGMT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/EmployeeMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        EMPLOYER_MGMT_TARGET_END_POINT:
+          name: EMPLOYER_MGMT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/EmployerMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z 
+        HRBPO_TARGET_END_POINT:
+          name: HRBPO_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/GlobalMessageCenter
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        MSG_TARGET_END_POINT:
+          name: MSG_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/MsgServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PERSON_MGMT_TARGET_END_POINT:
+          name: PERSON_MGMT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PersonMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        THIRD_PARTY_SSO_KEEPALIVE_URL: 
+          name: THIRD_PARTY_SSO_KEEPALIVE_URL
+          value:  
+          end-date: 3000-01-01T00:00:00Z
+          begin-date: 2000-01-01T00:00:00Z
+        SPM_TARGET_END_POINT:
+          name: SPM_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/SecureParticipantMailboxAlight
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HSA_PRSPND_ACCT_END_POINT:
+          name: HSA_PRSPND_ACCT_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PersonSpendingAccount
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        YS_PRVS_MGNT_END_POINT:
+          name: YS_PRVS_MGNT_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/YSPlanMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IS_IVA_ENABLED:
+          name: IS_IVA_ENABLED
+          value: true
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HM_ENROLL_TARGET_END_POINT:
+          name: HM_ENROLL_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/ProcessEngineWeb/services/alight/PersonHMActivity
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HM_ENROLL_GET_BENE_END_POINT:
+          name: HM_ENROLL_GET_BENE_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PersonBeneficiaryMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IMGDOCMGMT_TARGET_END_POINT:
+          name: IMGDOCMGMT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/ImagedDocumentMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        ABSM_TARGET_END_POINT:
+          name: ABSM_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/AbsmServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        ADVC_SERVICES_END_POINT:
+          name: ADVC_SERVICES_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/AdvcServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        CALENDAR_EVENT_TARGET_END_POINT:
+          name: CALENDAR_EVENT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/HrManagerMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z     
+        CAREMARK_TARGET_END_POINT:
+          name: CAREMARK_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/Caremark
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z       
+        CBA_PP_TARGET_END_POINT:
+          name: CBA_PP_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PersonPlanMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z                   
+        CCF_UDPPERSON_TARGET_END_POINT:
+          name: CCF_UDPPERSON_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/UDPPerson
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        CCF_UDPPERSON_TARGET_END_POINT_PROD:
+          name: CCF_UDPPERSON_TARGET_END_POINT_PROD
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/UDPPerson
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        CCF_UPOINT_UDP_AUTHORIZATION_END_POINT:
+          name: CCF_UPOINT_UDP_AUTHORIZATION_END_POINT
+          value: https://int-services.alight.com/AHServiceGatewayPU/oauth2/token
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z    
+        CM_PLT_TARGET_END_POINT:
+          name: CM_PLT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/PieceLevelTrackingAlight
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        CM_TARGET_PRSN_ACTV_END_POINT:
+          name: CM_TARGET_PRSN_ACTV_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PersonActivity
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        CREDENTIAL_TARGET_END_POINT:
+          name: CREDENTIAL_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/CredentialMgmtServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        DBTARGET_TARGET_END_POINT:
+          name: DBTARGET_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/DBTarget
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        DC_TFER_ACTV_TARGET_END_POINT:
+          name: DC_TFER_ACTV_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PersonDCActivity
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        EMPLOYEE_ANALYTICS_TARGET_END_POINT:
+          name: EMPLOYEE_ANALYTICS_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/EmployerAnlytcs
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        EMPMGT_TARGET_END_POINT:
+          name: EMPMGT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/EmployeeMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        EVIVE_TARGET_END_POINT:
+          name: EVIVE_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/Evive
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        GLOBALMSGCENTER_TARGET_END_POINT:
+          name: GLOBALMSGCENTER_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/GlobalMessageCenter
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HASBROCFG_TARGET_END_POINT:
+          name: HASBROCFG_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/HasbroConfigMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HELLO_WALLET_TARGET_END_POINT:
+          name: HELLO_WALLET_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/HelloWallet
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HM_CASTLIGHT_TARGET_END_POINT:
+          name: HM_CASTLIGHT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/Castlight
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HM_CONNECTURE_TARGET_END_POINT:
+          name: HM_CONNECTURE_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/Connecture
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HM_HLP_HCCS_END_POINT:
+          name: HM_HLP_HCCS_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PersonHealthMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HM_HMPLANMGMT_TARGET_END_POINT:
+          name: HM_HMPLANMGMT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/HMPlanMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HM_OPTUM_TARGET_END_POINT:
+          name: HM_OPTUM_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/Optum
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HM_PICWELL_TARGET_END_POINT:
+          name: HM_PICWELL_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/Picwell
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HM_STRENUUS_TARGET_END_POINT:
+          name: HM_STRENUUS_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/Strenuus
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        MIGRAUTO_TARGET_END_POINT:
+          name: MIGRAUTO_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/MigrationAutomation
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        MTOM_TARGET_END_POINT:
+          name: MTOM_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/MTOMServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PAYFLEX_TARGET_END_POINT:
+          name: PAYFLEX_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PayFlexServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PCSMGMT_TARGET_END_POINT:
+          name: PCSMGMT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PCSMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PERSON_DB_ACTIVITY_TARGET_END_POINT:
+          name: PERSON_DB_ACTIVITY_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PersonDBActivity
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PERSON_DB_PLAN_TARGET_END_POINT:
+          name: PERSON_DB_PLAN_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PersonDBPlan
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PERSON_DC_PLAN_TARGET_END_POINT:
+          name: PERSON_DC_PLAN_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PersonDcPlan
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PERSON_LRNG_MGMT_TARGET_END_POINT:
+          name: PERSON_LRNG_MGMT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PersonLearningMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PIT_DB_JNDI_NAME:
+          name: PIT_DB_JNDI_NAME
+          value: jdbc/pit
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PIT_DB_SCHEMA:
+          name: PIT_DB_SCHEMA
+          value: US00095_CUSTOM
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PRSNMGMT_TARGET_END_POINT:
+          name: PRSNMGMT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/PersonMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        RET_INCOME_PROJ_END_POINT:
+          name: RET_INCOME_PROJ_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/RetirementIncomeProjection
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        RSA_ADMIN_TARGET_END_POINT:
+          name: RSA_ADMIN_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/RSAAdaptAuthAdmin
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        RSA_CALLER_CREDENTIAL:
+          name: RSA_CALLER_CREDENTIAL
+          value: password01!
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        RSA_CALLER_ID:
+          name: RSA_CALLER_ID
+          value: callerid
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        RSA_TARGET_END_POINT:
+          name: RSA_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/RSAAdaptAuth
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        TABLEAU_EXTERNAL_HOST_URL:
+          name: TABLEAU_EXTERNAL_HOST_URL
+          value: https://tableau.qc.alight.com
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        TABLEAU_HOST_URL:
+          name: TABLEAU_HOST_URL
+          value: https://CPWEQAPP0061.d2.hewitt.com
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        TEXT_MSG_MGMT_TARGET_END_POINT:
+          name: TEXT_MSG_MGMT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/TextMessageMgmtAlight
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        USR_MGMT_TARGET_END_POINT:
+          name: USR_MGMT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/AdminUserMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        VANGUARD_TARGET_END_POINT:
+          name: VANGUARD_TARGET_END_POINT
+          value: https://services.ad.alight.com/AHServiceGatewayAD/services/alight/Vanguard
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        VIRTUALHOLD_TARGET_END_POINT:
+          name: VIRTUALHOLD_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/VirtualHoldTechnology
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        WORKFORCE_TARGET_END_POINT:
+          name: WORKFORCE_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/ProcessEngineWeb/services/alight/WorkForce
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        YSA_IMGDOCPATH_TARGET_END_POINT:
+          name: YSA_IMGDOCPATH_TARGET_END_POINT
+          value: /apps/Upload/images/images
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        YSA_IMGTEMPDOCPATH_TARGET_END_POINT:
+          name: YSA_IMGTEMPDOCPATH_TARGET_END_POINT
+          value: /apps/Upload/images/temp
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        YSA_IMGXMLPATH_TARGET_END_POINT:
+          name: YSA_IMGXMLPATH_TARGET_END_POINT
+          value: /apps/Upload/images/xml
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        YSA_TARGET_END_POINT:
+          name: YSA_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/YSAServices
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        SPM_BLACKOUT_ENABLED:
+          name: SPM_BLACKOUT_ENABLED
+          value: false
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        UDP_TARGET_END_POINT:
+          name: UDP_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        UDP_ALWAYS_SEND_PRSN_ID:  
+          name: UDP_ALWAYS_SEND_PRSN_ID
+          value: false
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        MOBILE_ENABLE:
+          name: MOBILE_ENABLE
+          value: false
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HTTP_CONNECTION_TIMEOUT:
+          name: HTTP_CONNECTION_TIMEOUT
+          value: '5000'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HTTP_DEFAULT_MAX_CONN_PER_HOST:
+          name: HTTP_DEFAULT_MAX_CONN_PER_HOST
+          value: '250'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HTTP_MAX_CONNECTIONS_PER_HOST:
+          name: HTTP_MAX_CONNECTIONS_PER_HOST
+          value: '250'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HASBRO_POOL_MAX_ACTIVE_SIZE:
+          name: HASBRO_POOL_MAX_ACTIVE_SIZE
+          value: '150'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HASBRO_POOL_MAX_SIZE:
+          name: HASBRO_POOL_MAX_SIZE
+          value: '200'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        OMNI_SERVICES_END_POINT:
+          name: OMNI_SERVICES_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/Omni
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        TCLIENT_LDAP_TARGET_END_POINT:
+          name: TCLIENT_LDAP_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/LDAP
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        TCLIENT_INST_ID:
+          name: TCLIENT_INST_ID
+          value: tClient
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        TABLEAU_MINIDASHBOARD_HOST_URL:
+          name: TABLEAU_MINIDASHBOARD_HOST_URL
+          value: https://CPWEQAPP0061.d2.hewitt.com
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        TABLEAU_MINIDASHBOARD_EXTERNAL_HOST_URL:
+          name: TABLEAU_MINIDASHBOARD_EXTERNAL_HOST_URL
+          value: https://tableau.qc.alight.com
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HTTP_MAX_TOTAL_CONNECTIONS:
+          name: HTTP_MAX_TOTAL_CONNECTIONS
+          value: '200'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        ADVOCATE_MGMT_TARGET_END_POINT:
+          name: ADVOCATE_MGMT_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/AdvocateMgmt
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        UPOINT_UDP_AUTHORIZATION_TOKEN_UPOINTMBL:
+          name: UPOINT_UDP_AUTHORIZATION_TOKEN_UPOINTMBL
+          value: ${secret:udp.athz.token.upointmbl}
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        UPOINT_UDP_AUTHORIZATION_TOKEN_ALIGHTONEMOBILE:
+          name: UPOINT_UDP_AUTHORIZATION_TOKEN_ALIGHTONEMOBILE
+          value: ${secret:udp.athz.token.alightonemobile}
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        API_GATEWAY_URL:
+          name: API_GATEWAY_URL
+          value: https://api-int.euw-qa.aws.alight.com/api/
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        API_GATEWAY_MBL_URL:
+          name: API_GATEWAY_MBL_URL
+          value: https://api-qa.ap.alight.com/api/
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        MULNTBG_SERVICES_END_POINT:
+          name: MULNTBG_SERVICES_END_POINT
+          value: https://int-services.qc.alight.com/AHServiceGatewayQC/services/alight/MullinTBG
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        UPOINTMBL_MIN_VERSION:
+          name: UPOINTMBL_MIN_VERSION
+          value: 4.9.4
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        WEB_ANALYTICS_UA_CLIENT_PROPERTY_ID:
+          name: WEB_ANALYTICS_UA_CLIENT_PROPERTY_ID
+          value: UA-46913325-8
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        WEB_ANALYTICS_UA_CLIENT_TRACKING:
+          name: WEB_ANALYTICS_UA_CLIENT_TRACKING
+          value: true
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        WEB_ANALYTICS_UA_CROSS_PROPERTY_ID:
+          name: WEB_ANALYTICS_UA_CROSS_PROPERTY_ID
+          value: UA-42536228-7
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        WEB_ANALYTICS_UA_CROSS_TRACKING:
+          name: WEB_ANALYTICS_UA_CROSS_TRACKING
+          value: true
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        API_GATEWAY_INTERNAL_URL:
+          name: API_GATEWAY_INTERNAL_URL
+          value: https://api-int.euw-qa.aws.alight.com/api/
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        API_GATEWAY_MBL_INTERNAL_URL:
+          name: API_GATEWAY_MBL_INTERNAL_URL
+          value: https://api-int.euw-qa.aws.alight.com/api/
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HCSC_TARGET_END_POINT:
+          name: HCSC_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/ProcessEngineWeb/services/alight/HCSC
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HSABANK_TARGET_END_POINT:
+          name: HSABANK_TARGET_END_POINT
+          value: https://int-services.qc.alight.com/ProcessEngineWeb/services/alight/HsaBank
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        UCE_URL:
+          name: UCE_URL
+          value: https://leplb0220.upoint.alight.com
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        DC_UDP_API_VERSION:
+          name: DC_UDP_API_VERSION
+          value: '2.7'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        GLOBAL_SESSION_ID_KEY:
+          name: GLOBAL_SESSION_ID_KEY
+          value: ${secret:global.session.id.key}
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IVA_JAVASCRIPT_SRC:
+          name: IVA_JAVASCRIPT_SRC
+          value: https://aonh-test2.nextit.com/Alme/nextit-script-manager.js
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HMIG_HLTH_NAV_AVLB_CD:
+          name: HMIG_HLTH_NAV_AVLB_CD
+          value: Y
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        BAZAARVOICE_AVAILABLE:
+          name: BAZAARVOICE_AVAILABLE
+          value: Y
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HMIG_OPTUM_AVLB_CD:
+          name: HMIG_OPTUM_AVLB_CD
+          value: Y
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HMIG_CONNECTURE_AVLB_CD:
+          name: HMIG_CONNECTURE_AVLB_CD
+          value: Y
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HMIG_PICWELL_AVLB_CD:
+          name: HMIG_PICWELL_AVLB_CD
+          value: true
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        BAZAARVOICE_JAVASCRIPT_EN_US_URL:
+          name: BAZAARVOICE_JAVASCRIPT_EN_US_URL
+          value: //aonhewitt.ugc.bazaarvoice.com/bvstaging/static/2380tbar-en_us/bvapi.js
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        BAZAARVOICE_JAVASCRIPT_ES_US_URL:
+          name: BAZAARVOICE_JAVASCRIPT_ES_US_URL
+          value: //aonhewitt.ugc.bazaarvoice.com/bvstaging/static/2380tbar-es_us/bvapi.js
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        AIRBO_USER_TILES_END_POINT:
+          name: AIRBO_USER_TILES_END_POINT
+          value: https://hengage-staging.herokuapp.com/api/v1/user_tiles
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        UPOINTMBL_PERSON_TOKEN_V2:
+          name: UPOINTMBL_PERSON_TOKEN_V2
+          value: true
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        BLACKOUT_TEXT_FROM_PROPS:
+          name: BLACKOUT_TEXT_FROM_PROPS
+          value: false
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IS_BLACKOUT:
+          name: IS_BLACKOUT
+          value: false
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IS_BLACKOUT_TXT_COMMON:
+          name: IS_BLACKOUT_TXT_COMMON
+          value: Site is under maintenance, please check back later.
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PORTAL_BLACKOUT:
+          name: PORTAL_BLACKOUT
+          value: false
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PORTAL_BLACKOUT_REASON:
+          name: PORTAL_BLACKOUT_REASON
+          value: SCHEDULEDMAINTENANCE
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PORTAL_BLACKOUT_TEXT:
+          name: PORTAL_BLACKOUT_TEXT
+          value: Site is under maintenance, please check back later.
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IS_BLACKOUT_TXT_SCHD_MNTN:
+          name: IS_BLACKOUT_TXT_SCHD_MNTN
+          value: Site is under maintenance, please check back later.
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        IVA_SRC_PATH:
+          name: IVA_SRC_PATH
+          value: https://aonh-test2.nextit.com/Alme/
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        SECURE_PDF_CONTENT_KEY:
+          name: SECURE_PDF_CONTENT_KEY
+          value: 9e4060287a6b815e73ba8d3f2fa906c285cfb42ad1f3f5ff79a99d8c5474421d
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        SECURE_PDF_CONTENT_TIMEOUT:
+          name: SECURE_PDF_CONTENT_TIMEOUT
+          value: '60'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HMIG_STRENUUS_AVLB_CD:
+          name: HMIG_STRENUUS_AVLB_CD
+          value: Y
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        SPM_BLACKOUT_RSN:
+          name: SPM_BLACKOUT_RSN
+          value: 'no-current-blackout'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        AVA_URL:
+          name: AVA_URL
+          value: https://alight.com
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        MOBILE_ALTERNATE_LOGIN_ENABLED:
+          name: MOBILE_ALTERNATE_LOGIN_ENABLED
+          value: true
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        AF_FED_DC_APP_URL:
+          name: AF_FED_DC_APP_URL
+          value: https://cache-upn-qa.ap.alight.com/myHRStatic/UPoint/UpointFedDcBase/1.102.0/
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z 
+        AF_FED_DC_NG13_APP_URL:
+          name: AF_FED_DC_NG13_APP_URL
+          value: https://cache-upn-qa.ap.alight.com/myHRStatic/UPoint/UpointFedDcNG13Base/13.143.1/
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        API_GATEWAY_MBL_CLOUD_URL:
+          name: API_GATEWAY_MBL_CLOUD_URL
+          value: https://api-qa.ap.alight.com/api/
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PORTAL_SESSION_TIMEOUT:
+          name: PORTAL_SESSION_TIMEOUT
+          value: 15
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        PORTAL_SESSION_TIMEOUT_WARNING:
+          name: PORTAL_SESSION_TIMEOUT_WARNING
+          value: 5
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        EXTLINK_KEEPALIVE_INTERVAL:
+          name: EXTLINK_KEEPALIVE_INTERVAL
+          value: 15
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        HASBRO_SERVICE_ERROR_COUNT:
+          name: HASBRO_SERVICE_ERROR_COUNT
+          value: '10'
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        AVA_LOGO:
+          name: AVA_LOGO
+          value: https://upoint-dv.alight.com/cloudcms/19943/master/UCEDocuments/branding/ADS/logo/peach-logo.svg
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        AVA_HEADER_LOGO:
+          name: AVA_HEADER_LOGO
+          value: https://upoint-dv.alight.com/cloudcms/19943/master/UCEDocuments/branding/ADS/logo/peach-logo.svg
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        MBL_CLOUD_TRANSMIT_URL:
+          name: MBL_CLOUD_TRANSMIT_URL
+          value: https://transmit-qc.ap.alight.com
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        MBL_ONPREM_TRANSMIT_URL:
+          name: MBL_ONPREM_TRANSMIT_URL
+          value: https://transmit.qc.alight.com
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
+        MBL_TRANSMIT_TOKEN_VALUE:
+          name: MBL_TRANSMIT_TOKEN_VALUE
+          value: 91855d56-7f9a-4a53-afc4-ae999679e5ef
+          begin-date: 2000-01-01T00:00:00Z
+          end-date: 3000-01-01T00:00:00Z
